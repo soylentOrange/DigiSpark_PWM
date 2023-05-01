@@ -1,7 +1,7 @@
 /// @file
 
 /* DigiSpark_PWM Library
-   soylentOrange - https://github.com/soylentOrange/Forced-BMX280
+   soylentOrange - https://github.com/soylentOrange/DigiSpark_PWM
 */
 
 #include "DigiSpark_PWM.h"

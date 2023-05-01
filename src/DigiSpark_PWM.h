@@ -1,11 +1,15 @@
 /* DigiSpark_PWM Library
-   soylentOrange - https://github.com/soylentOrange/Forced-BMX280
+   soylentOrange - https://github.com/soylentOrange/DigiSpark_PWM
 */
 
 #ifndef __DIGISPARK_PWM_HPP
 #define __DIGISPARK_PWM_HPP
 
-#include <Arduino.h>
+#if !defined(ATTINYCORE) || !defined(__AVR_ATtinyX5__)
+  #error This library is designed only for AVR_ATtinyX5 boards using ATTinyCore
+#endif
+
+#include "Arduino.h"
 
 
 class DigiSpark_PWM {
