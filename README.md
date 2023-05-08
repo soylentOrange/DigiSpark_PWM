@@ -23,7 +23,7 @@ This hardware-based Pulse-Width-Modulation (PWM) library enables you to use the 
 
 ## Why do we need this library
 
-I needed a hardware PWM for a [***DigiSpark-board***](https://www.azdelivery.de/en/products/digispark-board) to drive a fan at 25kHz and didn't found a library supporting the [**ATTinyCore**](https://github.com/SpenceKonde/ATTinyCore).  
+I needed a hardware PWM for a [**DigiSpark-board**](https://www.azdelivery.de/en/products/digispark-board) to drive a fan at 25kHz and didn't found a library supporting the [**ATTinyCore**](https://github.com/SpenceKonde/ATTinyCore).  
 If you have one of the boards and need a flexible hardware-based PWM, this library might also fit for you. Otherwise, I'm still happy to use it ;).
 
 > See the provided example on how to the library.
