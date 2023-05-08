@@ -8,7 +8,7 @@
 ---
 
 ## Abstract
-This hardware-based Pulse-Width-Modulation (PWM) library enables you to use the Hardware-PWM on **Arduino AVR ATtiny85-based boards (Digispark)** using [**ATTinyCore**](https://github.com/SpenceKonde/ATTinyCore). The **Timer/Counter1** is used in _asynchronous mode_ to give a PWM-output on **Pin PB4** up to 500 kHz. The maximum resolution is **8-bit**, the effective resolution typically between **7-bit** and **8-bit**.
+This hardware-based Pulse-Width-Modulation (PWM) library enables you to use the Hardware-PWM on **Arduino AVR ATtiny85-based boards (Digispark)** using [**ATTinyCore**](https://github.com/SpenceKonde/ATTinyCore). The **Timer/Counter1** is used in _asynchronous mode_ to give a PWM-output on **Pin PB1** or **Pin PB4** up to 500 kHz. The maximum resolution is **8-bit**, the effective resolution typically between **7-bit** and **8-bit**.
 
 ---
 
