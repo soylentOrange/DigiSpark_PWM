@@ -35,7 +35,7 @@ A bare minimum example is given below:
 ```c++
 #include "DigiSpark_PWM.h"  // https://github.com/soylentOrange/DigiSpark_PWM
 
-// Cretae instance of DigiSpark_PWM-class, connected to Pin-PB1
+// Create instance of DigiSpark_PWM-class, connected to Pin-PB1
 // (This Pin is connected to the onboard LED)
 DigiSpark_PWM pwm = DigiSpark_PWM(PIN_PB1);
 
