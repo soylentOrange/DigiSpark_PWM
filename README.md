@@ -79,6 +79,7 @@ The funcion will return an error if PWM is unavailable:
 * or 0 if everything went well. 
 #### uint8_t getPin()
 Returns the pin given during instanciation.
+
 ---
 
 ## Installation
